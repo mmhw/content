@@ -1,0 +1,42 @@
+{
+    "custom_packs": [
+        {
+            "id": "DeveloperTools",
+            "url": "CustomPacks/DeveloperTools.zip"
+        }
+    ],
+    "marketplace_packs": [
+        {
+            "id": "FeedJSON",
+            "version": "*"
+        },
+        {
+            "id": "AzureSentinel",
+            "version": "1.5.0"
+        }
+    ],
+    "lists": [
+        {
+            "name": "List1",
+            "value": "a,b,c,d"
+        }
+    ],
+    "jobs": [
+        {
+            "type": "Unclassified",
+            "name": "Job from pack1",
+            "playbookId": "playbook-Pack1-Job",
+            "scheduled": true,
+            "recurrent": true,
+            "cronView": true,
+            "cron": "0 10,15 * * *",
+            "startDate": "2021-01-07T15:10:04.000Z",
+            "endingDate": "2021-01-07T15:10:04.000Z",
+            "endingType": "never",
+            "timezoneOffset": -120,
+            "timezone": "Asia/Jerusalem",
+            "shouldTriggerNew": true,
+            "closePrevRun": true
+        }
+    ]
+}
