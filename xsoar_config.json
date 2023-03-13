@@ -2,7 +2,7 @@
     "custom_packs": [
         {
             "id": "DeveloperTools",
-            "url": "CustomPacks/DeveloperTools.zip"
+            "url": "https://raw.githubusercontent.com/mmhw/content/master/CustomPacks/DeveloperTools.zip"
         }
     ],
     "marketplace_packs": [
