@@ -1,0 +1,122 @@
+contentitemexportablefields:
+  contentitemfields:
+    definitionid: ""
+    fromServerVersion: ""
+    itemVersion: ""
+    packID: c6a98467-b3cc-4b1a-8870-c75b5d65c061
+    packName: Test_PR
+    prevname: ""
+    propagationLabels:
+    - all
+    toServerVersion: ""
+id: 18993e8f-d503-4066-89d4-d6544d3e06d4
+inputs: []
+name: Test_PR
+outputs: []
+quiet: true
+starttaskid: "0"
+tasks:
+  "0":
+    continueonerrortype: ""
+    id: "0"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "1"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 7b0c5ed2-ac1b-40fe-816b-0774e6526465
+      iscommand: false
+      name: ""
+      version: -1
+    taskid: 7b0c5ed2-ac1b-40fe-816b-0774e6526465
+    timertriggers: []
+    type: start
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 40
+        }
+      }
+  "1":
+    continueonerrortype: ""
+    id: "1"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "2"
+    note: false
+    quietmode: 0
+    scriptarguments:
+      value:
+        simple: test
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      description: Prints text to war room (Markdown supported)
+      id: 64295bc1-25c3-403b-8bc5-8aadbe7f0fd9
+      iscommand: false
+      name: print
+      scriptName: Print
+      type: regular
+      version: -1
+    taskid: 64295bc1-25c3-403b-8bc5-8aadbe7f0fd9
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 230
+        }
+      }
+  "2":
+    continueonerrortype: ""
+    id: "2"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: a274d338-7883-413b-87c4-c9db1c35cd24
+      iscommand: false
+      name: end
+      type: title
+      version: -1
+    taskid: a274d338-7883-413b-87c4-c9db1c35cd24
+    timertriggers: []
+    type: title
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 440
+        }
+      }
+version: -1
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 465,
+        "width": 380,
+        "x": 450,
+        "y": 40
+      }
+    }
+  }
